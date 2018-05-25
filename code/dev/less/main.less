@@ -1,0 +1,42 @@
+@import './colorbox';
+
+.container {
+  margin-top: 50px;
+}
+
+.page-title {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
+  padding-bottom: 15px;
+}
+
+// overriding bootstrap style
+.main-form__input {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 20px;
+
+  input,
+  select {
+    &.error {
+      border-color: #ff0000;
+      box-shadow: none;
+    }
+  }
+}
+
+.error-list {
+  margin: 0 0 0 13px;
+  padding: 40px;
+
+  li {
+    line-height: 1.7;
+    font-size: 16px;
+  }
+}
+
+.msg-error {
+  padding: 40px 40px 25px;
+  font-size: 16px;
+  color: #ff0000;
+}
